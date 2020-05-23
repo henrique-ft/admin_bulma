@@ -1,0 +1,165 @@
+<html class-"no-js">
+  <head>
+    <title>Front</title>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="description" content="Insira aqui a descrição da página.">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+
+    <!-- BULMA -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.1/css/bulma.min.css" integrity="sha256-1nEaE91OpXJD7M6W5uSiqxhdmrY+lOOTHC1iUxU9Pds=" crossorigin="anonymous" />
+
+    <!-- LIGHT SIDEBAR -->
+    <link rel="stylesheet" href="light-sidebar.css"/>
+
+    <style>
+    </style>
+
+    <!-- TURBOLINKS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.2.0/turbolinks.js" integrity="sha256-iM4Yzi/zLj/IshPWMC1IluRxTtRjMqjPGd97TZ9yYpU=" crossorigin="anonymous"></script>
+
+    <script>
+    Turbolinks.start()
+    </script>
+  </head>
+  <body>
+    <input type="checkbox" id="light-sidebar-control" class="light-sidebar-control" ><label for="light-sidebar-control" class="light-sidebar-toggle-button">
+        <a class="light-sidebar-burguer">
+          <div class="light-sidebar-burguer-icon"></div>
+        </a>
+    </label>
+
+    <nav class="light-sidebar-navigation">
+        <img class="light-sidebar-thumbnail" src="https://scontent.fcgh7-1.fna.fbcdn.net/v/t1.0-0/p552x414/73019436_1388579864645623_1235591013645418496_n.png?_nc_cat=108&_nc_sid=85a577&_nc_ohc=jJ81pb07HzoAX-r-XvB&_nc_ht=scontent.fcgh7-1.fna&oh=dde4bc1a632d9afb39e2305c0fabd272&oe=5EA51FFF">
+        <ul>
+            <li>
+              <a href="#"><i class="fas fa-plus"></i> Adicionar</a>
+            </li>
+            <li>
+              <a href=""><i class="fas fa-list-ul"></i> Listar</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="light-sidebar-wrapper">
+      <div class="light-sidebar-top-bar">
+      </div>
+
+      <main class="light-sidebar-main-content">
+        <div class="container is-fluid">
+          <div class="columns">
+            <div class="column has-background-white light-sidebar-card">
+
+              <h1 class="title">Title</h1>
+<hr>
+              <div class="field">
+                <label class="label">Name</label>
+                <div class="control">
+                  <input class="input" type="text" placeholder="Text input">
+                </div>
+              </div>
+
+              <div class="field">
+                <label class="label">Username</label>
+                <div class="control has-icons-left has-icons-right">
+                  <input class="input is-success" type="text" placeholder="Text input" value="bulma">
+                  <span class="icon is-small is-left">
+                    <i class="fas fa-user"></i>
+                  </span>
+                  <span class="icon is-small is-right">
+                    <i class="fas fa-check"></i>
+                  </span>
+                </div>
+                <p class="help is-success">This username is available</p>
+              </div>
+
+              <div class="field">
+                <label class="label">Email</label>
+                <div class="control has-icons-left has-icons-right">
+                  <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
+                  <span class="icon is-small is-left">
+                    <i class="fas fa-envelope"></i>
+                  </span>
+                  <span class="icon is-small is-right">
+                    <i class="fas fa-exclamation-triangle"></i>
+                  </span>
+                </div>
+                <p class="help is-danger">This email is invalid</p>
+              </div>
+
+
+              <div class="file is-boxed">
+                <label class="file-label">
+                  <input class="file-input" type="file" name="resume">
+                  <span class="file-cta">
+                    <span class="file-icon">
+                      <i class="fas fa-upload"></i>
+                    </span>
+                    <span class="file-label">
+                      Choose a file…
+                    </span>
+                  </span>
+                </label>
+              </div>
+<br>
+              <div class="field">
+                <label class="label">Subject</label>
+                <div class="control">
+                  <div class="select">
+                    <select>
+                      <option>Select dropdown</option>
+                      <option>With options</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="field">
+                <label class="label">Message</label>
+                <div class="control">
+                  <textarea class="textarea" placeholder="Textarea"></textarea>
+                </div>
+              </div>
+
+              <div class="field">
+                <div class="control">
+                  <label class="checkbox">
+                    <input type="checkbox">
+                    I agree to the <a href="#">terms and conditions</a>
+                  </label>
+                </div>
+              </div>
+
+              <div class="field">
+                <div class="control">
+                  <label class="radio">
+                    <input type="radio" name="question">
+                    Yes
+                  </label>
+                  <label class="radio">
+                    <input type="radio" name="question">
+                    No
+                  </label>
+                </div>
+              </div>
+
+              <div class="field is-grouped">
+                <div class="control">
+                  <button class="button is-link">Submit</button>
+                </div>
+                <div class="control">
+                  <button class="button is-link is-light">Cancel</button>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+  </body>
